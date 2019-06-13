@@ -7,18 +7,18 @@ export const manageArgv = (argv: string): void => {
       exit: false,
       silent: false,
     });
-    error("run $ rpx --help # to know more", {
+    error("run $ npi --help # to know more", {
       exit: false,
       silent: false,
     });
   } else {
     process.stdout.write(`  Usage \n
     Please go to your directory where package.json is present and then run \n
-    $ npx rpx
+    $ npx npi
 
     or
 
-    $ rpx # if installed globally
+    $ npi # if installed globally
     `);
   }
   process.exit();
