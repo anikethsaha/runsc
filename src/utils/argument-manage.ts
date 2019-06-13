@@ -7,18 +7,18 @@ export const manageArgv = (argv: string): void => {
       exit: false,
       silent: false,
     });
-    error("run $ nix --help # to know more", {
+    error("run $ runsc --help # to know more", {
       exit: false,
       silent: false,
     });
   } else {
     process.stdout.write(`  Usage \n
     Please go to your directory where package.json is present and then run \n
-    $ npx nix
+    $ npx runsc
 
     or
 
-    $ nix # if installed globally
+    $ runsc # if installed globally
     `);
   }
   process.exit();

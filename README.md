@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <h2 align="center">nix</h2>
+  <h2 align="center">runsc</h2>
 </p>
 <p align="center">
 Know your package.json script W/O knowing them and run them using an interactive way
@@ -25,8 +25,8 @@ This is very light weight package. just run one a go.
 
 ## Installation
 ```bash
-$ npm i -g nix
-$ nix
+$ npm i -g runsc
+$ runsc
 
 # will list the present script then
 
@@ -34,9 +34,9 @@ $ nix
 USING NPX
 ----------------
 
-$ npx nix
+$ npx runsc
 ````
-**`$ nix --help`**
+**`$ runsc --help`**
 To show the help message :smile:
 
 

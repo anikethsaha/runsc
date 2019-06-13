@@ -1,5 +1,5 @@
 {
-  "name": "nix",
+  "name": "runsc",
   "version": "0.0.5",
   "description": "Know your npm script with knowing them ?",
   "main": "bin/index.js",
@@ -15,7 +15,7 @@
     "watch": "parcel watch --no-autoinstall ./src/index.ts --target node --out-dir bin --out-file index.js "
   },
   "bin": {
-    "nix": "./bin/index.js"
+    "runsc": "./bin/index.js"
   },
   "files": [
     "bin"
@@ -69,7 +69,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anikethsaha/nix.git"
+    "url": "git+https://github.com/anikethsaha/runsc.git"
   },
   "license": "Apache-2.0"
 }
