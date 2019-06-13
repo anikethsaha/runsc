@@ -20,7 +20,26 @@
   "files": [
     "bin"
   ],
-  "keywords": [],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "keywords": [
+    "npm",
+    "cli",
+    "scripts"
+  ],
   "author": "",
   "devDependencies": {
     "@commitlint/cli": "8.0.0",
