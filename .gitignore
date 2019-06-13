@@ -1,0 +1,12 @@
+node_modules/
+coverage
+.editorconfig
+
+.cache/
+
+src/*.js
+*lock.json
+*lock
+src/*/*.js
+src/*.d.ts
+src/*/*.d.ts

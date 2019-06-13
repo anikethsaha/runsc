@@ -1,0 +1,16 @@
+
+{
+	"compilerOptions": {
+    "baseUrl": ".",
+    "paths": { "*": ["types/*"] },
+		"target": "es6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"skipLibCheck": true,
+    "allowJs": true,
+    "strict": true,
+	},
+	"include": ["./src/*.ts"],
+	"exclude": ["node_modules/**", "/templates/*.js","/templates/*","generators/templates/*" ,"/__tests__/*.test.js", "/utils/*.js"]
+}

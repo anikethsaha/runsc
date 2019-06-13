@@ -1,0 +1,59 @@
+{
+  "name": "rpx",
+  "version": "0.0.0",
+  "description": "Know your npm script with knowing them ?",
+  "main": "bin/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "jest": " jest",
+    "local": " nodemon dist/cli.js",
+    "release": "standard-version",
+    "type:build": "tsc",
+    "commit": "git-cz",
+    "type:watch": "tsc -w",
+    "build": "parcel build --no-autoinstall ./src/index.ts --target node --out-dir bin --out-file index.js ",
+    "watch": "parcel watch --no-autoinstall ./src/index.ts --target node --out-dir bin --out-file index.js "
+  },
+  "bin": {
+    "rpx": "./bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@commitlint/cli": "8.0.0",
+    "@commitlint/config-conventional": "8.0.0",
+    "@commitlint/travis-cli": "8.0.0",
+    "@types/chalk": "2.2.0",
+    "@types/node": "12.0.8",
+    "@types/update-notifier": "^2.5.0",
+    "@types/yeoman-environment": "2.3.1",
+    "@types/yeoman-generator": "3.1.3",
+    "commitizen": "3.1.1",
+    "eslint": "5.16.0",
+    "husky": "2.4.1",
+    "jest": "23.6.0",
+    "lint-staged": "8.2.0",
+    "nodemon": "1.19.1",
+    "parcel-bundler": "1.12.3",
+    "parcel-plugin-shebang": "^1.2.5",
+    "prettier": "1.18.2",
+    "standard-version": "6.0.1",
+    "typescript": "3.5.1"
+  },
+  "dependencies": {
+    "inquirer": "^6.3.1",
+    "prettycli": "^1.4.3",
+    "update-notifier": "^3.0.0"
+  },
+  "engines": {
+    "npm": "6.9.1-next.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildtip/create-web-app.git"
+  },
+  "license": "Apache-2.0"
+}
