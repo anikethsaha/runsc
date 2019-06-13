@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <h2 align="center">npi</h2>
+  <h2 align="center">nix</h2>
 </p>
 <p align="center">
 Know your package.json script W/O knowing them and run them using an interactive way
@@ -25,8 +25,8 @@ This is very light weight package. just run one a go.
 
 ## Installation
 ```bash
-$ npm i -g npi
-$ npi
+$ npm i -g nix
+$ nix
 
 # will list the present script then
 
@@ -34,9 +34,9 @@ $ npi
 USING NPX
 ----------------
 
-$ npx npi
+$ npx nix
 ````
-**`$ npi --help`**
+**`$ nix --help`**
 To show the help message :smile:
 
 

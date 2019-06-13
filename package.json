@@ -1,5 +1,5 @@
 {
-  "name": "npi",
+  "name": "nix",
   "version": "0.0.4",
   "description": "Know your npm script with knowing them ?",
   "main": "bin/index.js",
@@ -15,7 +15,7 @@
     "watch": "parcel watch --no-autoinstall ./src/index.ts --target node --out-dir bin --out-file index.js "
   },
   "bin": {
-    "npi": "./bin/index.js"
+    "nix": "./bin/index.js"
   },
   "files": [
     "bin"
@@ -69,7 +69,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anikethsaha/npi.git"
+    "url": "git+https://github.com/anikethsaha/nix.git"
   },
   "license": "Apache-2.0"
 }
