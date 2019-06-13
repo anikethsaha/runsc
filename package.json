@@ -15,7 +15,7 @@
     "watch": "parcel watch --no-autoinstall ./src/index.ts --target node --out-dir bin --out-file index.js "
   },
   "bin": {
-    "rpx": "./bin/index.js"
+    "npi": "./bin/index.js"
   },
   "files": [
     "bin"
