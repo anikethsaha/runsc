@@ -22,7 +22,8 @@ export const findScript = (src: string = ""): void => {
   listPrompt(
     "script",
     "List of Available Scripts, Select the one you want to run",
-    Object.keys(scripts),
+    Object.keys(scripts).map(s => `${s} ===> ${scripts[s]}`),
+    (val : string) : string => val.split("===>")[0].trim()
   )
   .then((res : {script : string} ) => runScript(res.script, scripts[res.script]));
 
