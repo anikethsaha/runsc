@@ -9,6 +9,22 @@
 </p>
 <p align="center">
 Know your package.json script W/O knowing them and run them using an interactive way
+<p align="center">
+  <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/anikethsaha/runsc#readme">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/anikethsaha/runsc/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/anikethsaha/runsc/blob/master/LICENSE">
+    <img alt="License: Apache-2.0" src="https://img.shields.io/badge/License-Apache-2.0-yellow.svg" target="_blank" />
+  </a>
+</p>
+
+
+
+
 </p>
 
 <p align="center">
@@ -52,3 +68,19 @@ To show the help message :smile:
 
 
 
+
+## Author
+
+👤 **aniketh saha**
+
+* Twitter: [@anik220798](https://twitter.com/anik220798)
+* Github: [@anikethsaha](https://github.com/anikethsaha)
+
+## Show your support
+
+Give a ⭐️ if this project helped you !
+
+## 📝 License
+
+Copyright © 2019 [aniketh saha &lt;anik220798@gmmail.com&gt; &lt;anikethsaha.github.io&gt;](https://github.com/anikethsaha).<br />
+This project is [Apache-2.0](https://github.com/anikethsaha/runsc/blob/master/LICENSE) licensed.
