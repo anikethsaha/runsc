@@ -5,10 +5,8 @@
 </p>
 
 <p align="center">
-  <h2 align="center">runsc</h2>
+  <h1 align="center">runsc</h1>
 </p>
-<p align="center">
-Know your package.json script W/O knowing them and run them using an interactive way
 <p align="center">
   <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/anikethsaha/runsc#readme">
@@ -34,18 +32,21 @@ Know your package.json script W/O knowing them and run them using an interactive
 </p>
 
 
-
+## A Better `$ npm run`
+Alternative to it
 
 ## What is it and why ?
-It solves not a major problem but solves a **problem**.
+When we use `$ npm run` to know our script,we get happy about it. Now your happiness can increase a little bit with this.
 
+## General Moto :
 Whenever you go to your terminal to run a npm script but then you forgot what was the script name or what was its command value which it will run cause you have many scripts.
+## Features
 This package will solve your this problem. Just use this package and it will
 - **List all the npm scripts present in your `package.json`**
 - **Will also print the equivalent command they will run**
 - **Will run the script for you**
-**Why?**
 
+## Why?
 Why not !
 This is very light weight package. just run on a go.
 
