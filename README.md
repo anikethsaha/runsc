@@ -52,7 +52,7 @@ This is very light weight package. just run on a go.
 
 ## Installation
 ```bash
-$ npm i -g runsc
+$ npm i -g @buildtip/runsc
 $ runsc # will list the present script then and after selecting, will run it for you
 
 ----------------
