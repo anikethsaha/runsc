@@ -1,6 +1,6 @@
 {
   "name": "@buildtip/runsc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Know your npm script with knowing them ?",
   "main": "bin/index.js",
   "scripts": {
