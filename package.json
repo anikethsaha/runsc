@@ -35,6 +35,9 @@
       "git add"
     ]
   },
+  "commitlint" : {
+    "extends": ["@commitlint/config-conventional"]
+  },
   "keywords": [
     "npm",
     "cli",

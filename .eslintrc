@@ -1,4 +1,4 @@
-module.exports = {
+{
 	"root": true,
 	"plugins": ["node"],
 	"extends": ["eslint:recommended", "plugin:node/recommended"],
@@ -64,7 +64,7 @@ module.exports = {
 		"node/no-missing-require": [
 			"error",
 			{
-				"resolvePaths": ["./packages"],
+				"resolvePaths": ["./packages"]
 			}
 		],
 		"node/no-unpublished-bin": "error",
@@ -80,4 +80,4 @@ module.exports = {
 		"newline-per-chained-call": "off",
 		"node/process-exit-as-throw": "error"
 	}
-};
+}
