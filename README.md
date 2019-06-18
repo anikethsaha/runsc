@@ -9,13 +9,13 @@
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/anikethsaha/runsc#readme">
+  <a href="https://github.com/buildtip/runsc#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
-  <a href="https://github.com/anikethsaha/runsc/graphs/commit-activity">
+  <a href="https://github.com/buildtip/runsc/graphs/commit-activity">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
   </a>
-  <a href="https://github.com/anikethsaha/runsc/blob/master/LICENSE">
+  <a href="https://github.com/buildtip/runsc/blob/master/LICENSE">
     <img alt="License: Apache-2.0" src="https://img.shields.io/badge/License-Apache-2.0-yellow.svg" target="_blank" />
   </a>
 </p>
@@ -59,7 +59,7 @@ $ runsc # will list the present script then and after selecting, will run it for
 USING NPX
 ----------------
 
-$ npx runsc
+$ npx @buildtip/runsc
 
 ```
 
